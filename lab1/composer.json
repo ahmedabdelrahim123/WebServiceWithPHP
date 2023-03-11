@@ -1,0 +1,11 @@
+{
+    "name": "webservice/lab1",
+    "description": "lab work",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+
+    }, "autoload": {
+        "files": ["config.php", "functions.php"]
+    }
+} 
