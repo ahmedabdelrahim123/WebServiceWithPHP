@@ -9,9 +9,9 @@ $url= $_SERVER['REQUEST_URI'];
 $parts=explode('/',$url);
 
 //resource
-$resource=isset($parts[3])? $parts[3]:null;
+$resource=isset($parts[4])? $parts[4]:null;
 //resourceid
-$resourceId=isset($parts[4])? $parts[4]:null;
+$resourceId=isset($parts[5])? $parts[5]:null;
 
 if($handler->connect()){
     if($resource == 'items'){
